@@ -273,7 +273,7 @@ h6 { font-size: 16px;}
 }
 #social_img {
 	width: 200px;
-	padding-left: 150px;
+	margin: auto;
 }
 
 .post-wrapper {
@@ -344,5 +344,28 @@ h6 { font-size: 16px;}
 	}
 	.right-column{
 		justify-content: center;
+	}
+	#priview-shadow{
+		background-color: var(--priviewShadow);
+		width: 200px;
+		height: 150px;
+		padding-left: 30px;
+		padding-top: 30px;
+	}
+	#priview{
+		width: 200px;
+		height: 140px;
+		border: 1.5px solid #17a2b8;
+		background-color: var(--priviewBg);
+		padding: 15px;
+		position: relative;
+	}
+	#priview h3, p {
+		font-size: 15px;
+	}
+
+
+	#social_img {
+		width: 200px;
 	}
 }
